@@ -1,0 +1,6 @@
+data("women")
+height_factor<-factor(women$height)
+print("Levels of the height factor:\n")
+print(levels(height_factor))
+print("\nSummary of the height factor:\n")
+print(summary(height_factor))
